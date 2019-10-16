@@ -18,6 +18,7 @@ Dependencies are getting out of date pretty much every day. It could be caused b
 
 You shouldn’t install dependencies with poor GitHub activity - it’s a sign that the project is not maintained anymore.
 
-For already existing dependencies you can use locally an amazing [npm-check-updates](https://www.npmjs.com/package/npm-check-updates) which you, unfortunately, can’t automate. But sometimes it’s handy, especially when you are taking over somebody else (legacy) codebase. Or you are coming back to your pet project.
+For already existing dependencies you can use locally an amazing [npm-check-updates](https://www.npmjs.com/package/npm-check-updates) which you, unfortunately, can’t automate. But sometimes it’s handy, especially when you are taking over somebody else \(legacy\) codebase. Or you are coming back to your pet project.
 
-For the projects, you are currently working on, you should consider setting up [Dependabot](https://dependabot.com). It got acquired by GitHub and now is fully free of charge! And it also works nicely with security updates.
+For the projects, you are currently working on, you should consider setting up [Dependabot](https://dependabot.com). It got acquired by GitHub and now is fully free of charge! And it also works nicely with security updates.
+

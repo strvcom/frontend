@@ -1,6 +1,6 @@
 # Code Quality Tools
 
-The quality of code results in the quality of the app. If the code is well written, it’s much easier to scale, maintainor do refactoring. The well documented and well-typed project helps to onboard new developers.
+The quality of code results in the quality of the app. If the code is well written, it’s much easier to scale, maintainor do refactoring. The well documented and well-typed project helps to onboard new developers.
 
 There are many tools that can analyze your code before it goes to production.
 
@@ -14,7 +14,7 @@ It's recommended to follow the same formatting in a project. This makes the code
 
 EditorConfig helps maintain consistent coding styles for multiple developers working on the same project across various editors, IDEs and operating systems. The EditorConfig project consists of a file format for defining coding styles and a collection of text editor plugins that enable editors to read the file format and adhere to defined styles. EditorConfig files are easily readable and they work nicely with version control systems.
 
-All you need is to have .editorconfig file present in your project folder and EditorConfig plugin installed in your editor; it will automatically enforce a consistent code style. No more discussions if tab size should 2 or 4 spaces. Nor any tabs vs. spaces wars.
+All you need is to have .editorconfig file present in your project folder and EditorConfig plugin installed in your editor; it will automatically enforce a consistent code style. No more discussions if tab size should 2 or 4 spaces. Nor any tabs vs. spaces wars.
 
 ### Prettier
 
@@ -44,11 +44,11 @@ In STRV we maintain our own ruleset with a huge focus on our coding style, but m
 
 ### TSLint
 
-TSLint is a linter for TypeScript, but today it’s completely unnecessary. Instead, you can use the ESLint with a @typescript-eslint plugin.
+TSLint is a linter for TypeScript, but today it’s completely unnecessary. Instead, you can use the ESLint with a @typescript-eslint plugin.
 
 ### stylelint
 
-If there is any custom CSS, that must be linted too, [Stylelint](https://stylelint.io/) does a great job of that. Besides catching silly typos and bugs, stylelint can enforce styleguide, and disable the usage of unwanted units or wrong notations.
+If there is any custom CSS, that must be linted too, [Stylelint](https://stylelint.io/) does a great job of that. Besides catching silly typos and bugs, stylelint can enforce styleguide, and disable the usage of unwanted units or wrong notations.
 
 Just like other tools it has great editor integration and has a lot of plugins.
 
@@ -58,9 +58,9 @@ When it comes to project contribution there are some good practices you can do i
 
 ### commitlint
 
-Using [Conventional commits](https://www.conventionalcommits.org) looks like a nice practice helping the readability of commit history.
+Using [Conventional commits](https://www.conventionalcommits.org) looks like a nice practice helping the readability of commit history.
 
-You can use [commitzen-cli](https://github.com/commitizen/cz-cli) to become a better **commitzen** and improve your commit flow.
+You can use [commitzen-cli](https://github.com/commitizen/cz-cli) to become a better **commitzen** and improve your commit flow.
 
 ### textlint
 
@@ -70,8 +70,9 @@ You can set up a dictionary for a list of libraries you are using. Overall this 
 
 ## code-quality-tools
 
-In STRV we maintain [code-quality-tools](https://github.com/strvcom/code-quality-tools) repository with our own configurations for many tools mentioned above. We highly recommend them. If you disagree with any, please don’t disable it, but rather open an issue or a discussion.
+In STRV we maintain [code-quality-tools](https://github.com/strvcom/code-quality-tools) repository with our own configurations for many tools mentioned above. We highly recommend them. If you disagree with any, please don’t disable it, but rather open an issue or a discussion.
 
 Be brave and convince clients to move forward to our ruleset. It’s battle-tested and shipped on numerous successful projects.
 
 Also, our coding style will make your code beautiful.
+
