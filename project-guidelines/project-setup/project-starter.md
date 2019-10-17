@@ -8,10 +8,10 @@ The best approach is zero-configsolutions such as [Create React App](https://fac
 
 You got for free:
 
-* new features, bug fixes and security updates with a simple update of ONE package
-* easy maintenance
-* great documentation
-* all cured by huge community and technology leaders
+- new features, bug fixes and security updates with a simple update of ONE package
+- easy maintenance
+- great documentation
+- all cured by huge community and technology leaders
 
 ## Risks not using zero-config project starters
 
@@ -27,47 +27,47 @@ There are numerous zero-configuration project starters. Each of them serves a di
 
 Pros
 
-* Created and maintained by Facebook
-* Biggest community
-* High-quality contributors \(for example Tobias Koppers aka sokra - creator of webpack\)
-* Well known by almost any React developer, which leads to easier onboarding
-* Has an outstanding documentation
-* Provides maximum freedom
+- Created and maintained by Facebook
+- Biggest community
+- High-quality contributors \(for example Tobias Koppers aka sokra - creator of webpack\)
+- Well known by almost any React developer, which leads to easier onboarding
+- Has an outstanding documentation
+- Provides maximum freedom
 
 Cons
 
-* Tools are preconfigured to work in a specific way, which can be changed just by “ejecting” \(which we strongly recommend not to do, rather go with react-app-rewired or create-strv-app or any other fork of the main repository\)
-* Requires extra work to achieve the same capabilities as Gatsby or Next.js
+- Tools are preconfigured to work in a specific way, which can be changed just by “ejecting” \(which we strongly recommend not to do, rather go with react-app-rewired or create-strv-app or any other fork of the main repository\)
+- Requires extra work to achieve the same capabilities as Gatsby or Next.js
 
 ### Next.js
 
 Pros
 
-* Created by Zeit
-* Provides outstanding server-side capabilities
-* Has static export
-* Can combine server-side rendering with static export
+- Created by Zeit
+- Provides outstanding server-side capabilities
+- Has static export
+- Can combine server-side rendering with static export
 
 Cons
 
-* With server comes a huge responsibility - security
-* Uses framework-specific abstractions such as getInitialProps, thus when doing a refactor to another framework
+- With server comes a huge responsibility - security
+- Uses framework-specific abstractions such as getInitialProps, thus when doing a refactor to another framework
 
 ### Gatsby
 
 Pros
 
-* One of the best static-site generators
-* Has tons of plugins
-* GraphQL API for pulling data
-* Uses MDX
-* Gatsby Themes
-* A built-in full toolkit of web developers including even image optimization
+- One of the best static-site generators
+- Has tons of plugins
+- GraphQL API for pulling data
+- Uses MDX
+- Gatsby Themes
+- A built-in full toolkit of web developers including even image optimization
 
 Cons
 
-* Without partial builds \(e.g. just some pages were changed, but build command has to rebuild everything\) could be a bit slow
-* Because of a lot of internal logic, there is a much harder learning curve
+- Without partial builds \(e.g. just some pages were changed, but build command has to rebuild everything\) could be a bit slow
+- Because of a lot of internal logic, there is a much harder learning curve
 
 ## Which one to choose?
 
@@ -79,32 +79,32 @@ There a few basic rules you can follow:
 
 ### Client-side rendering
 
-* Your app requires user’s authentication
-* You don’t care about SEO
-* You are planning to implement your own routing
-* A typical example: [www.tinder.com](http://www.tinder.com)
-* Project starter: Create React App
+- Your app requires user’s authentication
+- You don’t care about SEO
+- You are planning to implement your own routing
+- A typical example: [www.tinder.com](http://www.tinder.com)
+- Project starter: Create React App
 
 ### Static export
 
-* You care about loading performance
-* You care about SEO
-* Static \(hardcoded\) content
-* Content doesn’t change that often
-* A lot of dynamic content will be possible with [incremental builds support](https://github.com/gatsbyjs/gatsby/issues/5002#issuecomment-531653471)
-* [Gatsby-plugin-netlify-cache](https://github.com/axe312ger/gatsby-plugin-netlify-cache) to speed up build time by 10x
-* A typical example: [www.lubosmid.com](https://www.lubosmid.com/)
-* Project starter: Gatsby, Next.js, Create React App turned into react-static or react-snap
+- You care about loading performance
+- You care about SEO
+- Static \(hardcoded\) content
+- Content doesn’t change that often
+- A lot of dynamic content will be possible with [incremental builds support](https://github.com/gatsbyjs/gatsby/issues/5002#issuecomment-531653471)
+- [Gatsby-plugin-netlify-cache](https://github.com/axe312ger/gatsby-plugin-netlify-cache) to speed up build time by 10x
+- A typical example: [www.lubosmid.com](https://www.lubosmid.com/)
+- Project starter: Gatsby, Next.js, Create React App turned into react-static or react-snap
 
 ### Server-side rendering
 
-* You care about SEO
-* A lot of dynamic content
-* You need to “hide” secrets \(API keys, credentials to 3rd party services\) which will be otherwise exposed in the client JavaScript bundle.
-* You need maximum scalability with your infrastructure.
-* Easier A/B testing
-* A typical example: [www.littlespoon.com](https://www.littlespoon.com/)
-* Project starter: Next.js, Create-React-App turned into Razzle
+- You care about SEO
+- A lot of dynamic content
+- You need to “hide” secrets \(API keys, credentials to 3rd party services\) which will be otherwise exposed in the client JavaScript bundle.
+- You need maximum scalability with your infrastructure.
+- Easier A/B testing
+- A typical example: [www.littlespoon.com](https://www.littlespoon.com/)
+- Project starter: Next.js, Create-React-App turned into Razzle
 
 Both Gatsby and Next.js are also providing a lot of utilities out of the box. Built-in code-splitting, simple client-side routing, outstanding development experience \(Hot Module Replacement\) and numerous plugins and tutorials. So, why actually one should bother about Create React App, where a lot of things are missing and must be added to provide a similar experience as the previous two?
 
@@ -126,8 +126,7 @@ Last note: Sometimes it’s really hard to choose even for skilled developers. D
 
 Besides a good project starter, you also need to have code quality tools, testing library and much more. Why not automate the job by curated Github templates?
 
-* [strvcom/template-react-cra](https://github.com/strvcom/template-react-cra)
-* [strvcom/template-react-next.js](https://github.com/strvcom/template-react-next.js)
-* \[todo\] strvcom/template-react-gatsby
-* \[todo\] strvcom/template-react-native
-
+- [strvcom/template-react-cra](https://github.com/strvcom/template-react-cra)
+- [strvcom/template-react-next.js](https://github.com/strvcom/template-react-next.js)
+- [strvcom/template-react-native](https://github.com/strvcom/template-react-native)
+- \[todo\] strvcom/template-react-gatsby
