@@ -8,7 +8,7 @@ There are many services available. Let’s focus on the main services we use.
 
 ### Heroku
 
-[Heroku](https://herokuapp.com)is Platform as a Service. It’s built on top of [AWS](deployment.md#amazon-web-services) and offers nice UI and simple setup. A great choice for server-side rendered apps.
+[Heroku](https://herokuapp.com) is Platform as a Service. It’s built on top of [AWS](deployment.md#amazon-web-services) and offers nice UI and simple setup. A great choice for server-side rendered apps.
 
 You can set up a development pipeline, easily promote from development to staging, or from staging to production.
 
@@ -18,17 +18,17 @@ The simplicity of installing add-ons makes Heroku a great go-to service. But it 
 
 ### Netlify
 
-[Netlify](https://www.netlify.com)is a web development platform with all the stuff needed for static websites. It’s probably the best player in the [JAMStack](https://jamstack.org) world.
+[Netlify](https://www.netlify.com) is a web development platform with all the stuff needed for static websites. It’s probably the best player in the [JAMStack](https://jamstack.org) world.
 
 It works really nice for static websites. The deploy preview is an amazing feature, which you can set-up for any pull request.
 
 Netlify also offers the following add-ons:
 
-* Analytics
-* Functions
-* Identity
-* Forms
-* Large Media
+- Analytics
+- Functions
+- Identity
+- Forms
+- Large Media
 
 And the majority of the features are free for small or personal projects.
 
@@ -38,7 +38,7 @@ Amazon Web Services \(AWS\) offers AWS EC2 or AWS S3 combined with Amazon CloudF
 
 ### Now, Firebase
 
-There are many great alternatives. [Now](http://now.sh/)has great support for [monorepos](../effective-and-consistent-workflow/code-structure-architecture.md#monorepos). [Firebase Hosting](https://firebase.google.com/products/hosting/) works nice for static content, but Netlify seems to be better.
+There are many great alternatives. [Now](http://now.sh/) has great support for [monorepos](../effective-and-consistent-workflow/code-structure-architecture.md#monorepos). [Firebase Hosting](https://firebase.google.com/products/hosting/) works nice for static content, but Netlify seems to be better.
 
 ## Static vs. server-side
 
@@ -68,7 +68,7 @@ Both Heroku and Netlify has build-in Continuous delivery. For AWS S3 you can set
 
 ## Content Delivery Network \(CDN\)
 
-For serving any static content or assets, the best approach is to use CDNs. Netlify uses [its own](https://www.netlify.com/products/edge/). [AWS CloudFront](https://aws.amazon.com/cloudfront/)integration like a charm with any other AWS product. You can easily install [Fastly](https://www.fastly.com)[add-on on Heroku](https://elements.heroku.com/addons/fastly). Or use the [Cloudflare](https://www.cloudflare.com).
+For serving any static content or assets, the best approach is to use CDNs. Netlify uses [its own](https://www.netlify.com/products/edge/). [AWS CloudFront](https://aws.amazon.com/cloudfront/) integration like a charm with any other AWS product. You can easily install [Fastly](https://www.fastly.com)[add-on on Heroku](https://elements.heroku.com/addons/fastly). Or use the [Cloudflare](https://www.cloudflare.com).
 
 There are clearly many ways how to use, but why?
 
@@ -78,13 +78,12 @@ A CDN is a way to deliver content from your website or mobile application to peo
 
 ### Some of the benefits of using a CDN for your website
 
-* Faster load times for web and mobile users
-* Quickly scalable during times of heavy traffic
-* Minimizes risk of traffic spikes at point of origin, ensuring site stability
-* Decreases infrastructure costs due to traffic offloading \(less load on origin\)
-* Better site performance
+- Faster load times for web and mobile users
+- Quickly scalable during times of heavy traffic
+- Minimizes risk of traffic spikes at point of origin, ensuring site stability
+- Decreases infrastructure costs due to traffic offloading \(less load on origin\)
+- Better site performance
 
 ### Additional resources
 
-* [Why you should use a content delivery network](https://www.fastly.com/blog/why-you-should-use-content-delivery-network) by Fastly
-
+- [Why you should use a content delivery network](https://www.fastly.com/blog/why-you-should-use-content-delivery-network) by Fastly

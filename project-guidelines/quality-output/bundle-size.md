@@ -16,48 +16,48 @@ Images must be quality enough, optimized, responsive, loaded fast or lazy-loaded
 
 Each format is suitable for a different need. Be wise when you are choosing.
 
-* JPG
-  * lossy compression
-  * great for photos, illustrations or background images
-* GIF
-  * limited to 256 colors
-  * can be transparent \(svg/png/webp is recommended\)
-  * can be animated \(but video is recommended\)
-  * not much used anymore
-* PNG
-  * lossless compression
-  * images which must have better quality \(logos, infographics, etc.\)
-  * can be transparent
-  * 8bit or 32bit version
-* WEBP
-  * a modern image format with improving support, but could be fixed by polyfill
-  * provides superior lossless and lossy compression for images on the web
-* SVG
-  * vector format
-  * great for icons
-  * can be animated by CSS or JavaScript
-  * can even have raster images inside of it
+- JPG
+  - lossy compression
+  - great for photos, illustrations or background images
+- GIF
+  - limited to 256 colors
+  - can be transparent \(svg/png/webp is recommended\)
+  - can be animated \(but video is recommended\)
+  - not much used anymore
+- PNG
+  - lossless compression
+  - images which must have better quality \(logos, infographics, etc.\)
+  - can be transparent
+  - 8bit or 32bit version
+- WEBP
+  - a modern image format with improving support, but could be fixed by polyfill
+  - provides superior lossless and lossy compression for images on the web
+- SVG
+  - vector format
+  - great for icons
+  - can be animated by CSS or JavaScript
+  - can even have raster images inside of it
 
 #### Optimization
 
 To reduce image size you can use many [Optimization Tools](bundle-size.md#optimization-tools), but before you choose one you should know how to optimize your images.
 
-* You need to have many responsive images to cover various screen sizes
-* Reduce unnecessary image decode and resize costs
-* Use srcsetor picture to serve different sizes
-* Think of [art direction](https://www.webdesignerdepot.com/2017/04/why-art-direction-is-critical-to-responsive-design/)
-* Do a fallback when using next-gen formats such as webp
-* Create a thumbnail or preview image \(or both!\)
+- You need to have many responsive images to cover various screen sizes
+- Reduce unnecessary image decode and resize costs
+- Use srcsetor picture to serve different sizes
+- Think of [art direction](https://www.webdesignerdepot.com/2017/04/why-art-direction-is-critical-to-responsive-design/)
+- Do a fallback when using next-gen formats such as webp
+- Create a thumbnail or preview image \(or both!\)
 
 Read an amazing [Image Guide](https://images.guide/) by Addy Osmani.
 
 #### Optimization Tools
 
-* [ImageOptim](https://imageoptim.com) software with nice GUI
-* mozjpeg, jpegtran, pngquant, optipng, svgo, webp optimization libraries, from the terminal or in a pre-commit hook
-* [imagemin](https://web.dev/use-imagemin-to-compress-images) combining above mentioned libraries with its plugin system. library for usage
-* [image-webpack-plugin](https://www.npmjs.com/package/image-webpack-loader)
-* [Cloudinary](https://cloudinary.com)as a third-party solution with cool AI underneath
+- [ImageOptim](https://imageoptim.com) software with nice GUI
+- mozjpeg, jpegtran, pngquant, optipng, svgo, webp optimization libraries, from the terminal or in a pre-commit hook
+- [imagemin](https://web.dev/use-imagemin-to-compress-images) combining above mentioned libraries with its plugin system. library for usage
+- [image-webpack-plugin](https://www.npmjs.com/package/image-webpack-loader)
+- [Cloudinary](https://cloudinary.com) as a third-party solution with cool AI underneath
 
 Danny compared how each tool perform: [https://github.com/dannytce/image-optimization](https://github.com/dannytce/image-optimization)
 
@@ -71,21 +71,21 @@ There are three main times when you can optimize:
 
 **Runtime of application**
 
-* Services like [Cloudinary](https://cloudinary.com/) provide an amazing experience of working with images
-* Unfortunately with a big amount of images you are also paying a lot of money
-* There are cheaper alternatives, but why to pay anything, when you do need to. Cloudinary is a great service, but you need to use it all the time.
+- Services like [Cloudinary](https://cloudinary.com/) provide an amazing experience of working with images
+- Unfortunately with a big amount of images you are also paying a lot of money
+- There are cheaper alternatives, but why to pay anything, when you do need to. Cloudinary is a great service, but you need to use it all the time.
 
 **Build time**
 
-* Not ideal, because you are working with unoptimized assets, which slows your machine. And you are not seeing the final result until build step
-* Affects a build time \(Optimization itself is a very expensive process, thus it’s slow\)
-* With each build, you need to run optimization again. This seems to be contra-productive.
-* Usually, we build our apps with a webpack, which is a bundler. it shouldn't do the optimization in a first-place.
+- Not ideal, because you are working with unoptimized assets, which slows your machine. And you are not seeing the final result until build step
+- Affects a build time \(Optimization itself is a very expensive process, thus it’s slow\)
+- With each build, you need to run optimization again. This seems to be contra-productive.
+- Usually, we build our apps with a webpack, which is a bundler. it shouldn't do the optimization in a first-place.
 
 **Development time**
 
-* Whenever you are adding new images to your project, optimize them!
-* Whenever you are exporting images from a design editor, be sure you are exporting an optimized version. For Sketch, you use an amazing ImageOptim extension, which is running in the background and does the optimization automatically.
+- Whenever you are adding new images to your project, optimize them!
+- Whenever you are exporting images from a design editor, be sure you are exporting an optimized version. For Sketch, you use an amazing ImageOptim extension, which is running in the background and does the optimization automatically.
 
 ### Videos
 
@@ -95,7 +95,7 @@ You may also want to give some extra life to your homepage by adding video backg
 
 Even though it’s become possible to autoplay background videos on mobile phones, you need to think of which internet network is mobile phone using. It could be a fast WiFi, or maybe a 3G.
 
-Unfortunately, based on [caniuse.com](https://caniuse.com/#feat=netinfo)there is still very vague support of Network Information API. You can write your own detection or maybe even put it into WebWorkers. But this matters just in case you really need to display a large image or a video.
+Unfortunately, based on [caniuse.com](https://caniuse.com/#feat=netinfo) there is still very vague support of Network Information API. You can write your own detection or maybe even put it into WebWorkers. But this matters just in case you really need to display a large image or a video.
 
 ### Fonts
 
@@ -107,7 +107,7 @@ In most cases you'll be safe with [Google Fonts](https://fonts.google.com), give
 
 CSS property font-display[got a very solid cross-browser support](https://caniuse.com/#feat=css-font-rendering-controls%26search=font-display). And it’s also supported by Google Fonts.
 
-But if you would love to have bigger control, you will probably also want to use [Font Face Observer](https://fontfaceobserver.com). It's an amazing, lightweight tool to detect if a font has already loaded on your website, it works with font services, and self-hosted fonts as well, the Promise based API is straightforward, and the browser support is very good. Here's a simple usage which resolves [FOUT](bundle-size.md#fout-foit-foft)for My Family font.
+But if you would love to have bigger control, you will probably also want to use [Font Face Observer](https://fontfaceobserver.com). It's an amazing, lightweight tool to detect if a font has already loaded on your website, it works with font services, and self-hosted fonts as well, the Promise based API is straightforward, and the browser support is very good. Here's a simple usage which resolves [FOUT](bundle-size.md#fout-foit-foft) for My Family font.
 
 ```javascript
 const font = new FontFaceObserver('My Family')
@@ -177,11 +177,11 @@ This decreases an initial load of the web a lot because we serve just a small po
 
 Next.js and Gatsby are doing this automatically by files in pagesfolder. The output is route based chunks.
 
-When you need to do even more chunks, you can leverage also a [dynamic import](https://webpack.js.org/guides/code-splitting/)feature of webpack. The feature itself is the [ECMAScript proposal](https://github.com/tc39/proposal-dynamic-import), which is not accepted yet. But you can fully use it with webpack!
+When you need to do even more chunks, you can leverage also a [dynamic import](https://webpack.js.org/guides/code-splitting/) feature of webpack. The feature itself is the [ECMAScript proposal](https://github.com/tc39/proposal-dynamic-import), which is not accepted yet. But you can fully use it with webpack!
 
-[React.lazy](https://reactjs.org/docs/code-splitting.html#reactlazy)is allowing you to use dynamic import as a component when [React.Suspense](https://reactjs.org/docs/code-splitting.html#suspense) renders fallback \(like Loading component\) when the component is not fully fetched.
+[React.lazy](https://reactjs.org/docs/code-splitting.html#reactlazy) is allowing you to use dynamic import as a component when [React.Suspense](https://reactjs.org/docs/code-splitting.html#suspense) renders fallback \(like Loading component\) when the component is not fully fetched.
 
-To verify how did you perform code-splitting, use [Chrome's Coverage tab](https://developers.google.com/web/updates/2017/04/devtools-release-notes#coverage)and [Webpack Bundle Analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer) to verify your chunks.
+To verify how did you perform code-splitting, use [Chrome's Coverage tab](https://developers.google.com/web/updates/2017/04/devtools-release-notes#coverage) and [Webpack Bundle Analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer) to verify your chunks.
 
 ## http/2
 
@@ -191,9 +191,9 @@ To verify how did you perform code-splitting, use [Chrome's Coverage tab](https:
 
 When it comes to frontend development we are usually relying on many 3rd party libraries.
 
-* Some of the 3rd party libraries could be grouped into common chunks, or even loaded from CDN
-* Some libraries are too big, always check their size. And also think whether their usage is really needed for a project.
-* Besides their size, you should also check their stability\(e.g. is that even production-ready\) and security.
+- Some of the 3rd party libraries could be grouped into common chunks, or even loaded from CDN
+- Some libraries are too big, always check their size. And also think whether their usage is really needed for a project.
+- Besides their size, you should also check their stability\(e.g. is that even production-ready\) and security.
 
 ## Forbidden libraries
 
@@ -229,7 +229,6 @@ Dealing with date in JavaScript is difficult. Especially when it comes to timezo
 
 ### Think before you npm-install
 
-This is a generic rule you can apply for any other library. Always consider its size by using [BundlePhobia](http://bundlephobia.com), Wix’s [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)plugin for VSCode or using the [webpack-bundle-analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer).
+This is a generic rule you can apply for any other library. Always consider its size by using [BundlePhobia](http://bundlephobia.com), Wix’s [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost) plugin for VSCode or using the [webpack-bundle-analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer).
 
 Also, think of [security](https://github.com/strvcom/frontend/tree/11faa047391814857bf86cdb62b9fb815731f911/project-guidelines/effective-and-consistent-workflow/dependency-checking/README.md#security).
-
