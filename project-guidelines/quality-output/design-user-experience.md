@@ -80,3 +80,4 @@ As of today, we can assume those numbers are even higher. Simply said PWAs are l
 - [5 key benefits of Progressive Web Apps](https://www.strv.com/blog/5-key-benefits-of-progressive-web-apps) by Danny Kijkov
 - [3 Limitations of Progressive Web Apps](https://www.strv.com/blog/3-limitations-of-progressive-web-apps) by Danny Kijkov
 - [Why Progressive Web Apps Are The Future of Mobile Web](https://ymedialabs.com/progressive-web-apps) By Jason Rzutkiewicz & Jeremy Lockhorn
+- [A community-driven list of stats and news related to PWAs](https://www.pwastats.com/)
