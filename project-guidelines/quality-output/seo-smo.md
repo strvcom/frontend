@@ -10,7 +10,7 @@ A valid, semantically-oriented HTML structure is essential if we want search eng
 
 - To properly split document content into logical pieces, always use HTML tags for content sectioning, such as `<article>`, `<nav>`, `<header>`, `<main>`, `<footer>`, `<section>`, `<aside>`.
 - Always use HTML tags that correspond with their content, e.g. `<ul>` or `<ol>` for lists etc. Never use semantically irrelevant tags only to achieve desired appearance, e.g. using `<table>` to create a list of thumbnails for gallery is _wrong_, use `<ul>` with proper styling instead.
-- Make sure that structure of heading reflects your content. You can quickly check and validate you current headings structure with a [Chrome extension](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi).
+- Make sure that structure of headings reflects your content. You can quickly check and validate you current headings structure with a [Chrome extension](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi).
 
 ![Heagings structure tree in a Chrome extension](../../.gitbook/assets/html-headings-validation.jpg)
 
