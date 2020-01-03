@@ -12,7 +12,7 @@ A valid, semantically-oriented HTML structure is essential if we want search eng
 - Always use HTML tags that correspond with their content, e.g. `<ul>` or `<ol>` for lists etc. Never use semantically irrelevant tags only to achieve desired appearance, e.g. using `<table>` to create a list of thumbnails for gallery is _wrong_, use `<ul>` with proper styling instead.
 - Make sure that structure of headings reflects your content. You can quickly check and validate you current headings structure with a [Chrome extension](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi).
 
-![Heagings structure tree in a Chrome extension](../../.gitbook/assets/html-headings-validation.jpg)
+![Heagings structure tree in a Chrome extension](./images/html-headings-validation.jpg)
 
 ## Structured data
 
@@ -22,7 +22,7 @@ It is a standardized format for providing information about a page and classifyi
 
 One of the benefits is that Google and some other search engines can use these extra information to show a customized search results, called _rich results_. Google supports various rich result types based on the type of our content. Full list of supported types with examples can be found at [Google Search Handbook](https://developers.google.com/search/docs/guides/search-gallery)
 
-![Example of rich result types (Recipe, Review, How-To)](../../.gitbook/assets/rich-results-example.png)
+![Example of rich result types (Recipe, Review, How-To)](./images/rich-results-example.png)
 
 ### Useful links:
 
