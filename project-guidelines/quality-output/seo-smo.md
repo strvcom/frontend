@@ -30,3 +30,4 @@ One of the benefits is that Google and some other search engines can use these e
 - [Google Search Console](https://search.google.com/search-console) – debugging with real data after deployment
 - [Google Search Handbook](https://developers.google.com/search/docs/guides/search-gallery) – full list of supported rich result types with examples
 - [Case Studies](https://developers.google.com/search/case-studies/overview)
+- [Slides from Frontend Meeting's presentation](https://speakerdeck.com/hofik9/enhancing-search-results-with-structured-data)
