@@ -1,14 +1,15 @@
 # INTRODUCTION
 
-Frontend development includes more and more responsibilities for its developers. There are almost unlimited sources of knowledge online. Yet none of them reflects the current status quo we believe in. From the high-level perspective there are three main aspects that matter:
+Frontend development consistently presents developers with more and more responsibilities. There are almost unlimited sources of knowledge online. Yet none of them reflect the status quo we currently believe in.
 
-* The Project Setup
-* Effective and Consistent Workflow
-* The Quality Output
+From a high-level perspective, there are three main aspects that matter to us:
 
-All three of them work nicely together and almost can’t live one without another. Thus we decided to make them as main chapters and focus on smaller areas in each chapter. Some information could be repetitive or just crossed-referenced with each other.
+- The Project Setup
+- Effective and Consistent Workflow
+- The Quality Output
 
-Please note that our knowledge is highly opinionated. For frontend development, we use almost exclusively React. And as the main Code Versioning System, we use GitHub. There are numerous great alternatives. But this kind of information is more suitable for another document.
+All three of the aspects work well together and practically can’t live without one-another. Thus we’ve decided to make them into main chapters, which allows us to divide up the focus on smaller areas. Occasional information might be repetitive or crossed-referenced.
 
-To each chapter, we tried to put some benefits and cons using or not using each measurement. Ultimately, this document should serve many purposes: learning and teaching, helping in the presales process or preparing a refactoring plan for our clients.
+Please note that our knowledge is highly opinionated. For Frontend Development, we almost exclusively use React. And as the main Code Versioning System, we use GitHub. There are numerous alternatives, all great. But there are many reasons why we’ve chosen Reach and GitHub, and getting into those reasons is suitable for another document.
 
+In each chapter, we try to include a few benefits and cons that come with using or not using each measurement. Ultimately, this document should serve many purposes: learning and teaching, helping in the presales process or preparing a refactoring plan for our clients.
