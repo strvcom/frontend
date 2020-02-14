@@ -8,7 +8,10 @@ The math here is simple. The less data there is to load, the faster the load is.
 
 Tools like [Lighthouse](https://developers.google.com/web/tools/lighthouse/) and [Webpack Bundle Analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer) help you analyze your output and improve the overall user experience.
 
-Performance plays a major role in the success of any online venture. Please follow [Why Performance Matters](https://developers.google.com/web/fundamentals/performance/why-performance-matters/) on Google’s Web Fundamentals. Take an extra look on provided case studies. It’s obvious that when a web app is faster, it’s more successful.
+Performance plays a major role in the success of any online venture. Please follow [Why Performance Matters](https://developers.google.com/web/fundamentals/performance/why-performance-matters/) on Google’s Web Fundamentals. Take an extra look on provided _case studies_. It’s obvious that when a web app is faster, it’s more successful.
+
+- https://wpostats.com/ - Case studies and experiments demonstrating the impact of web performance optimization (WPO) on user experience and business metrics.
+- https://speedcurve.com/benchmarks/
 
 ## Loading Performance
 
