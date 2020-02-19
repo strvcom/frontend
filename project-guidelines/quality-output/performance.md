@@ -26,6 +26,16 @@ Loading performance is all about how fast the end-user will see your app. There 
 
 The audit tools mentioned above will help you fix the majority of issues with loading performance.
 
+### How to improve loading performance?
+
+- Service Workers
+- Lazy loading images
+- [Optimizing bundle size](./bundle-size.md)
+  - Minification
+  - Code splitting
+  - Tree Shaking
+- [CDN](./deployment.md#content-delivery-network-cdn)
+
 ## Runtime Performance
 
 Runtime Performance is more about how smooth and fluid your app is. You should aim to have 60fps all the time. You can use Chrome’s flame chart, which visualizes JavaScript performance. Also, there is the FPS meter.
