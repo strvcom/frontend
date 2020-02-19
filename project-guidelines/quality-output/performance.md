@@ -26,11 +26,11 @@ Loading performance is all about how fast the end-user will see your app. There 
 
 The audit tools mentioned above will help you fix the majority of issues with loading performance.
 
-## Rendering Performance
+## Runtime Performance
 
-Rendering Performance is more about how smooth and fluid your app is. You should aim to have 60fps all the time. You can use Chrome’s flame chart, which visualizes JavaScript performance. Also, there is the FPS meter.
+Runtime Performance is more about how smooth and fluid your app is. You should aim to have 60fps all the time. You can use Chrome’s flame chart, which visualizes JavaScript performance. Also, there is the FPS meter.
 
-### How to improve rendering performance?
+### How to improve runtime performance?
 
 - [react-window](https://github.com/bvaughn/react-window) - React components for efficiently rendering large lists and tabular data
 - WebGL for hardcode web animations accelerated by GPU
