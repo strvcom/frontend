@@ -46,3 +46,7 @@ Runtime Performance is more about how smooth and fluid your app is. You should a
 - WebGL for hardcode web animations accelerated by GPU
 - web-workers
 - WebAssembly
+
+## Articles
+
+- https://www.crazyegg.com/blog/speed-up-your-website/
