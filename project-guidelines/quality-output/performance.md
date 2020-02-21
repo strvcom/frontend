@@ -50,3 +50,4 @@ Runtime Performance is more about how smooth and fluid your app is. You should a
 ## Articles
 
 - https://www.crazyegg.com/blog/speed-up-your-website/
+- https://www.smashingmagazine.com/2020/01/front-end-performance-checklist-2020-pdf-pages/
