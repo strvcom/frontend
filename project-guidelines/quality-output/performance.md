@@ -51,3 +51,10 @@ Runtime Performance is more about how smooth and fluid your app is. You should a
 
 - https://www.crazyegg.com/blog/speed-up-your-website/
 - https://www.smashingmagazine.com/2020/01/front-end-performance-checklist-2020-pdf-pages/
+- https://unbounce.com/page-speed-report/
+- [Industry Benchmarks on Mobile Page Speeds](https://www.thinkwithgoogle.com/intl/en-aunz/advertising-channels/mobile/au-mobile-page-speed-new-industry-benchmarks/)
+- [Impact on conversion rates](https://www.portent.com/blog/analytics/research-site-speed-hurting-everyones-revenue.htm)
+- [Mobile pages speeds](https://www.thinkwithgoogle.com/marketing-resources/experience-design/mobile-page-speed-load-time/)
+- [How fast should a website load?](https://www.hobo-web.co.uk/your-website-design-should-load-in-4-seconds/)
+- [Value of speed](https://web.dev/value-of-speed/)
+- [Google Mobile Site Speed Playbook](https://www.thinkwithgoogle.com/_qs/documents/3975/c676a_Google_MobileSiteSpeed_Playbook_v2.1_digital_RD1XArd.pdf)
