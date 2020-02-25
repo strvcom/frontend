@@ -2,7 +2,7 @@
 
 **Web is fast, web is slow**. Your app should be accessible to all users, regardless if they are on a super-fast fiber network or on a 3G/2G. You can have an amazing app running super fast, but if users are not able to load it, it’s useless.
 
-There are many studies about how page load time actually affects conversion rates. After 2014, mobile usage has taken over desktop use; it’s now the 4th year where we need to continue to focus on mobile first. And mobiles are unfortunately prone to be on a slow network.
+There are many studies about how page load time actually affects conversion rates. After 2014, mobile usage has taken over desktop use; since then, we've needed to focus on mobile first. And mobiles are unfortunately prone to be on a slow network.
 
 The math here is simple. The less data there is to load, the faster the load is.
 
@@ -33,7 +33,7 @@ The audit tools mentioned above will help you fix the majority of issues with lo
 - [Optimizing bundle size](./bundle-size.md)
   - Minification
   - Code splitting
-  - Tree Shaking
+  - Tree shaking
 - [CDN](./deployment.md#content-delivery-network-cdn)
 
 ## Runtime Performance
