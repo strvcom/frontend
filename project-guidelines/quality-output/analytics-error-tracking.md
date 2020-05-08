@@ -16,7 +16,7 @@ There are many tools for this, like Facebook Pixel or [Adobe Analytics](https://
 
 ### Google Analytics
 
-As an industry-standard, [Google Analytics](https://analytics.google.com/analytics/web/) wworks really well. The free plan provides a lot of functionality and integration is easy. But it’s a bit heavy in terms of loading performance. You can defer their loading by wrapping them into the setTimeout function.
+As an industry-standard, [Google Analytics](https://analytics.google.com/analytics/web/) works really well. The free plan provides a lot of functionality and integration is easy. But it’s a bit heavy in terms of loading performance. You can defer their loading by wrapping them into the setTimeout function.
 
 Or you can go even further and utilize Service Workers to do offline analytics. We highly recommend using it with [Workbox](https://developers.google.com/web/tools/workbox/modules/workbox-google-analytics), which is a great utility library for working with Service Workers developed by Google.
 
@@ -42,7 +42,7 @@ Segment is free for developers. For business, especially those with a bigger use
 
 ## Error Tracking
 
-[This great article from KeyCDN(https://www.keycdn.com/blog/error-tracking) says: The key to success in life is learning from your mistakes. The same can be said for web development. Error tracking is a vital component of any web project because it helps you [pinpoint performance problems](https://www.keycdn.com/support/pinpoint-website-performance-issues) before they get out of hand.
+[This great article from KeyCDN](https://www.keycdn.com/blog/error-tracking) says: The key to success in life is learning from your mistakes. The same can be said for web development. Error tracking is a vital component of any web project because it helps you [pinpoint performance problems](https://www.keycdn.com/support/pinpoint-website-performance-issues) before they get out of hand.
 
 Use [Sentry.io](https://sentry.io/welcome/) for error tracking helps developers monitor and fix crashes in real-time.
 
