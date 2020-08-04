@@ -36,9 +36,9 @@ And the majority of the features are free for small or personal projects.
 
 Amazon Web Services (AWS) offers AWS EC2 or AWS S3 combined with Amazon CloudFront. It’s the cheapest and most scalable solution. But it’s the most difficult to set up.
 
-### Now, Firebase
+### Vercel, Firebase
 
-There are many great alternatives. [Now](http://now.sh/) has great support for [monorepos](../effective-and-consistent-workflow/code-structure-architecture.md#monorepos). [Firebase Hosting](https://firebase.google.com/products/hosting/) works nice for static content, but Netlify seems to be better.
+There are many great alternatives. [Vercel](https://vercel.com) has great support for [monorepos](../effective-and-consistent-workflow/code-structure-architecture.md#monorepos). [Firebase Hosting](https://firebase.google.com/products/hosting/) works nice for static content, but Netlify seems to be better.
 
 ## Static vs. server-side
 

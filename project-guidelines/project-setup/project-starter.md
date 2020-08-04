@@ -43,7 +43,7 @@ Cons
 
 Pros
 
-- Created by Zeit
+- Created by Vercel
 - Provides outstanding server-side capabilities
 - Has static export
 - Can combine server-side rendering with static export
