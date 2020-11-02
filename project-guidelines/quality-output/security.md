@@ -7,3 +7,6 @@ ESLint has got your back for many security issues. But the best way to protect y
 If you are building a server-side rendered app, this also means that you need to take care of server security. The bare minimum is [HelmetJS](https://helmetjs.github.io) for Express servers.
 
 Use amazing [https://observatory.mozilla.org/](https://observatory.mozilla.org/)
+
+Be familiar with [OWASP Top Ten
+](https://owasp.org/www-project-top-ten/)
