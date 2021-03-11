@@ -15,22 +15,6 @@ Typically, apps are supposed to be optimized for mobile phones, tablets and desk
 - [BrowserStack](https://www.browserstack.com)
 - [SauceLabs](https://saucelabs.com/)
 
-## Accessibility
-
-Accessibility takes your website to a whole new level. It is accessible to all types of users, which is always preferred.
-
-- [https://a11yproject.com/](https://a11yproject.com/)
-- [https://en.wikipedia.org/wiki/Accessibility](https://en.wikipedia.org/wiki/Accessibility)
-- [https://www.udacity.com/course/web-accessibility--ud891](https://www.udacity.com/course/web-accessibility--ud891)
-- [Use Chrome with accessibility extensions](https://support.google.com/chrome/answer/7040464?hl=en)
-- Check [Google Web Fundamentals](https://developers.google.com/web/fundamentals/accessibility/)
-- [Color Tool](https://material.io/resources/color/)
-- [https://github.com/downshift-js/downshift](https://github.com/downshift-js/downshift)
-
-If designs you are working with have accessibility issues, you should bring them up to the designer and, if that is not possible, address the issues with any stakeholder.
-
-\[TODO link to Frontend Developer Responsibilities\]
-
 ## Progressive Web Apps
 
 Progressive web apps are just like a normal web, but with superpowers.
