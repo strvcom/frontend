@@ -25,3 +25,4 @@ The only check you can really enforce is what is running on your Continuous Inte
 CI also provides nice information about Pull Requests \(PRs\). There, you can run much more and profit from shared information in the PR’s comment section.
 
 It also indicates if checks passed or if there is an issue. Which makes doing a code review a bit faster.
+

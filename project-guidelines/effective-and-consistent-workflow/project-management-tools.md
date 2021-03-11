@@ -17,3 +17,4 @@ STRV has its own \[TODO: Add Link\] JIRA flow, which has been tailored to our ne
 [GitHub Milestones](https://help.github.com/en/articles/about-milestones) is great for your workflow. It’s simple to use, centralizes the information and helps you track what needs to get done.
 
 [GitHub Projects](https://help.github.com/en/articles/about-project-boards) help you organize and prioritize your work. You can create project boards for specific feature work, comprehensive roadmaps, or even release checklists. With project boards, you have the flexibility to create customized workflows that suit your needs.
+

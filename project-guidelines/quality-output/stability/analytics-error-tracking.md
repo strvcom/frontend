@@ -1,4 +1,4 @@
-# Analytics, Error Tracking
+# Analytics & Error Tracking
 
 The client or product owner should ideally track all data to get a better image of users: What is their behavior? Which devices do they use? And so on. Another critical piece of information are crash reports of your app, which help you and your team debug bugs during production.
 
@@ -24,15 +24,15 @@ Or you can go even further and utilize Service Workers to do offline analytics. 
 
 If you are hosting your web app on [Netlify](https://www.netlify.com), there is a fresh new feature called [Netlify Analytics](https://www.netlify.com/products/analytics/). It works directly on Netlify’s servers, so it doesn’t impact the runtime of your app.
 
-It’s fully GDPR compliant and provides better accuracy and performance. It’s capable of capturing web pages that were not found (404).
+It’s fully GDPR compliant and provides better accuracy and performance. It’s capable of capturing web pages that were not found \(404\).
 
-The only “con” is that the smallest tier is for \$9/month.
+The only “con” is that the smallest tier is for $9/month.
 
 ### FullStory
 
-Large projects can utilize the [FullStory](https://www.fullstory.com) platform. It has many great integrations (for example with Jira) and truly provides your users’ full story—including videos from a session, which is an incredible tool for debugging.
+Large projects can utilize the [FullStory](https://www.fullstory.com) platform. It has many great integrations \(for example with Jira\) and truly provides your users’ full story—including videos from a session, which is an incredible tool for debugging.
 
-The free plan offers one thousand sessions per month. The next tier is for \$850/month.
+The free plan offers one thousand sessions per month. The next tier is for $850/month.
 
 ### Segment
 
@@ -47,3 +47,4 @@ Segment is free for developers. For business, especially those with a bigger use
 Use [Sentry.io](https://sentry.io/welcome/) for error tracking helps developers monitor and fix crashes in real-time.
 
 You can also rely on information provided by analytics services, such as FullStory.
+

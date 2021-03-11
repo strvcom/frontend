@@ -2,10 +2,10 @@
 
 Languages [TypeScript](https://www.typescriptlang.org/) or [Flow](https://flow.org/) are very suitable for frontend development.
 
-- Fewer bugs in run-time, because bugs are caught in compile-time
-- Highly productive developer experience
-- Better onboarding of new developers
-- Easier to refactor and debug
+* Fewer bugs in run-time, because bugs are caught in compile-time
+* Highly productive developer experience
+* Better onboarding of new developers
+* Easier to refactor and debug
 
 ## TypeScript
 
@@ -15,18 +15,18 @@ TypeScript is not, in fact, a programming language. It’s a typed superset of J
 
 ### Benefits
 
-- Common and with a high adoption rate within a large community
-- Developed by Microsoft
-- Great tooling and integration in code editors or IDEs
-- A lot of typings for 3rd party libraries available
+* Common and with a high adoption rate within a large community
+* Developed by Microsoft
+* Great tooling and integration in code editors or IDEs
+* A lot of typings for 3rd party libraries available
 
 ### Risks
 
-- A bit of a harder learning curve, especially for junior developers
-- Potentially hard configuration \(you must know what are you doing\)
-- The official documentation is not up to date
-- Before `babel7`, compiler must be used with TypeScript \(tsc\); this makes adoption and upgrading to TypeScript complex
-- Requires a build step, which sometimes isn’t suitable—or the overhead just isn’t worth it
+* A bit of a harder learning curve, especially for junior developers
+* Potentially hard configuration \(you must know what are you doing\)
+* The official documentation is not up to date
+* Before `babel7`, compiler must be used with TypeScript \(tsc\); this makes adoption and upgrading to TypeScript complex
+* Requires a build step, which sometimes isn’t suitable—or the overhead just isn’t worth it
 
 ## Flow
 
@@ -34,14 +34,14 @@ Flow is developed by Facebook and used to be much more suitable for React than T
 
 ### Benefits
 
-- Feels more like JavaScript
-- You can simply add types to a file by adding @flow annotation at the beginning of a file
+* Feels more like JavaScript
+* You can simply add types to a file by adding @flow annotation at the beginning of a file
 
 ### Risks
 
-- TypeScript is more performant and stable
-- A lot of memory issues and editor integration problems
-- People behind Flow are more focused on ReasonML last days
+* TypeScript is more performant and stable
+* A lot of memory issues and editor integration problems
+* People behind Flow are more focused on ReasonML last days
 
 ## ReasonML
 
@@ -49,12 +49,13 @@ ReasonML is a JavaScript-like syntax for OCaml that can be compiled into JavaScr
 
 ### Benefits
 
-- Super fast and stable
-- Fully typed and functional language
-- Can compile to any platform supported by OCaml or JavaScript
+* Super fast and stable
+* Fully typed and functional language
+* Can compile to any platform supported by OCaml or JavaScript
 
 ### Risks
 
-- Small community compared to JavaScript or TypeScript
-- Difficult learning path
-- Usually not preferred by clients because there aren’t enough developers
+* Small community compared to JavaScript or TypeScript
+* Difficult learning path
+* Usually not preferred by clients because there aren’t enough developers
+

@@ -4,4 +4,5 @@ Both [Continuous Integration](../project-setup/continuous-integration-delivery.m
 
 Even though it can sometimes be very hard to set up, the many benefits of using it outweigh the cons. You should always consider setting up these services.
 
-For example, [Netlify](../quality-output/deployment.md#netlify) offers CI/CD for free and without almost any configuration. It also provides amazing preview-deploys out of the box. Similarly, setting up GitHub Actions, Circle CI or Travis pipelines is also very straightforward. There are many options to choose from. It doesn’t matter how easy or difficult it is to set up. It’s worth it.
+For example, [Netlify](../quality-output/performance/deployment.md#netlify) offers CI/CD for free and without almost any configuration. It also provides amazing preview-deploys out of the box. Similarly, setting up GitHub Actions, Circle CI or Travis pipelines is also very straightforward. There are many options to choose from. It doesn’t matter how easy or difficult it is to set up. It’s worth it.
+

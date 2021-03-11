@@ -75,3 +75,4 @@ At STRV, we maintain a [code-quality-tools](https://github.com/strvcom/code-qual
 Be brave and convince clients to move forward with our ruleset. It’s battle-tested and based on numerous successful projects.
 
 Also, our coding style will make your code beautiful.
+

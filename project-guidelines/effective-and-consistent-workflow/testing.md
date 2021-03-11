@@ -7,3 +7,4 @@ It’s a very useful investment which, besides guarding your code quality and he
 It’s crucial to have tests, especially when you are coming back to the project after some time. It happens that you just don’t remember some things. And tests could serve as documentation.
 
 Usually, the absence of meaningful tests makes it almost impossible to take over somebody else’s codebase. If you do so, you will have bad velocity on a project. And you won’t be sure if you’re risking breaking something by making a change in the code.
+

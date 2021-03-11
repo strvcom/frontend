@@ -21,3 +21,4 @@ You shouldn’t install dependencies with poor GitHub activity. It’s a sign th
 For already existing dependencies, you can locally use the amazing [npm-check-updates](https://www.npmjs.com/package/npm-check-updates) Unfortunately, you can’t automate them. But sometimes it is handy, especially when you are taking over somebody else’s \(legacy\) codebase. Or you are coming back to your own pet project.
 
 For the projects you are currently working on, you should consider setting up [Dependabot](https://dependabot.com).It got acquired by GitHub and is now fully free of charge! It also works nicely with security updates.
+

@@ -15,3 +15,4 @@ It’s one of the most exciting tools to work with! It improves your performance
 Isolation itself also helps team collaboration. You can have a dedicated UI team working on a number of stories — for example, when the UX team is taking care of its integration. Also, it’s much easier to pair with testers and to implement their test cases.
 
 You should consider using Storybook even when working on a project alone. Once you’re used to it, you’ll realize that you are actually developing faster. And with better quality.
+

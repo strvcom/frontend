@@ -5,3 +5,4 @@
 Besides guarding your types, type checking is also great for making a better developer experience \(better IntelliSense, code analysis\). You can also autogenerate types \(for example, from GraphQL schemas\). Doing refactoring is much easier.
 
 Your workflow is much more efficient with typing. Even though it takes some time to get used to it.
+

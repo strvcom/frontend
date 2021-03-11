@@ -1,2 +1,2 @@
-# project-guidelines
+# Project Guidelines
 

@@ -24,17 +24,17 @@ It works really nicely for static websites. The deploy preview is an amazing fea
 
 Netlify also offers the following add-ons:
 
-- Analytics
-- Functions
-- Identity
-- Forms
-- Large Media
+* Analytics
+* Functions
+* Identity
+* Forms
+* Large Media
 
 And the majority of the features are free for small or personal projects.
 
 ### Amazon Web Services
 
-Amazon Web Services (AWS) offers AWS EC2 or AWS S3 combined with Amazon CloudFront. It’s the cheapest and most scalable solution. But it’s the most difficult to set up.
+Amazon Web Services \(AWS\) offers AWS EC2 or AWS S3 combined with Amazon CloudFront. It’s the cheapest and most scalable solution. But it’s the most difficult to set up.
 
 ### Vercel, Firebase
 
@@ -44,7 +44,7 @@ There are many great alternatives. [Vercel](https://vercel.com) has great suppor
 
 Differences between each are described in [Project Setup](../project-setup/project-starter.md#which-one-to-choose). To have quality output, you must know the benefits of each solution.
 
-Static(-ally generated) websites work great with [Netlify](deployment.md#netlify) or other static hosting combined with [CDN](deployment.md#content-delivery-network-cdn).
+Static\(-ally generated\) websites work great with [Netlify](deployment.md#netlify) or other static hosting combined with [CDN](deployment.md#content-delivery-network-cdn).
 
 The server is needed for dynamic data, or the server is needed to run some backend tasks. However, it’s recommended to decouple things. Go serverless or use a monorepo.
 
@@ -74,16 +74,17 @@ There are clearly many ways to use this, but why should you?
 
 ### What is a CDN and how does it work?
 
-A CDN is a way to deliver content from your website or mobile application to people more quickly and efficiently, based on their geographic location. A CDN is made up of a network of servers (“points of presence,” or POPs) in locations all over the world.
+A CDN is a way to deliver content from your website or mobile application to people more quickly and efficiently, based on their geographic location. A CDN is made up of a network of servers \(“points of presence,” or POPs\) in locations all over the world.
 
 ### Some of the benefits of using a CDN for your website
 
-- Faster load times for web and mobile users
-- Quickly scalable during times of heavy traffic
-- Minimizes risk of traffic spikes at point of origin, ensuring site stability
-- Decreases infrastructure costs due to traffic offloading (less load on origin)
-- Better site performance
+* Faster load times for web and mobile users
+* Quickly scalable during times of heavy traffic
+* Minimizes risk of traffic spikes at point of origin, ensuring site stability
+* Decreases infrastructure costs due to traffic offloading \(less load on origin\)
+* Better site performance
 
 ### Additional resources
 
-- [Why you should use a Content Delivery Network](https://www.fastly.com/blog/why-you-should-use-content-delivery-network) by Fastly
+* [Why you should use a Content Delivery Network](https://www.fastly.com/blog/why-you-should-use-content-delivery-network) by Fastly
+
