@@ -189,7 +189,7 @@ When it comes to frontend development, we usually rely on many 3rd party librari
 
 * Some of the 3rd party libraries could be grouped into common chunks, or even loaded from CDN.
 * Some libraries are too big. Always check their size. And also think whether their usage is really needed for a project.
-* Besides their size, you should also check their **stability** \(e.g. is it even production-ready?\) and [security](../effective-and-consistent-workflow/dependency-checking.md#security).
+* Besides their size, you should also check their **stability** \(e.g. is it even production-ready?\), [security](../effective-and-consistent-workflow/dependency-checking.md#security) and [a11y compliance](../accessibility/)
 
 ## Forbidden libraries
 
@@ -227,5 +227,5 @@ Dealing with dates in JavaScript is difficult. Especially when it comes to timez
 
 This is a generic rule that you can apply for any other library. Always consider size by using [BundlePhobia](http://bundlephobia.com), Wix’s [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost) plugin for VSCode, or by using the [webpack-bundle-analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer).
 
-Also, again — think of [security](../effective-and-consistent-workflow/dependency-checking.md#security).
+Also, again — think of [accessibility](../accessibility/) and [security](../effective-and-consistent-workflow/dependency-checking.md#security).
 
