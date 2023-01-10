@@ -34,7 +34,7 @@
         - [Project Life Cycle](project-guidelines/quality-output/accessibility/a11y-in-strv/project-life-cycle.md)
         - [A11y culture](project-guidelines/quality-output/accessibility/a11y-in-strv/a11y-culture.md)
     - [Performance](project-guidelines/quality-output/performance/README.md)
-      - [Bunde Size](project-guidelines/quality-output/performance/bundle-size.md)
+      - [Bundle Size](project-guidelines/quality-output/performance/bundle-size.md)
       - [Deployment](project-guidelines/quality-output/performance/deployment.md)
       - [Audits & Reports](project-guidelines/quality-output/performance/audits-and-reports.md)
     - [Stability](project-guidelines/quality-output/stability/README.md)
