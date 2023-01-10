@@ -4,7 +4,7 @@
 
 To have successful software, you need to have a great foundation. It needs to be scalable, easy to upgrade and easy to maintain.
 
-The days when every React project had to be pieced together via elaborate Webpack configuration are behind us, and now we can take advantage of frameworks such as [Next.js](https://nextjs.org/), [Remix](https://remix.run/) or [Gatsby.js](https://www.gatsbyjs.org/). Each of them has a different use case, but they share the same idea: combine the latest web technologies under **one package**. Which is just perfect!
+The days when every React project had to be pieced together via elaborate Webpack configuration are behind us, and now we can take advantage of frameworks such as [Next.js](https://nextjs.org/) or [Remix](https://remix.run/). Each of them has a different use case, but they share the same idea: combine the latest web technologies under **one package**. Which is just perfect!
 
 You get \(for free\):
 
@@ -54,26 +54,6 @@ Cons
 
 - Requires mental shift as some "ways" of doing React in other frameworks don't apply (network calls, form handling)
 - Requires some knowledge of backend technologies and best practices
-
-### Gatsby
-
-Gatsby is a great solution for statically generated websites that don't have a lot of content and that content doesn't change that often. Such websites include landing blogs, documentation websites, small e-commerce websites, among others.
-
-Pros
-
-- One of the best static-site generators
-- SEO/SMO friendly
-- great performance out of the box
-- Has tons of plugins
-- GraphQL API for pulling data
-- Uses MDX
-- Gatsby Themes
-- A built-in full toolkit of web developers, including image optimization
-
-Cons
-
-- even with incremental builds, the build time can become prohibitive when handling large amount of content
-- steep learning curve, a lot of Gatsby-specific magic
 
 ## Additional information
 
