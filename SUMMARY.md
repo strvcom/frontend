@@ -16,7 +16,6 @@
     - [Code structure, architecture](project-guidelines/effective-and-consistent-workflow/code-structure-architecture.md)
     - [Code versioning and review flow](project-guidelines/effective-and-consistent-workflow/code-versioning-review-flow.md)
     - [Testing](project-guidelines/effective-and-consistent-workflow/testing.md)
-    - [Static type checking](project-guidelines/effective-and-consistent-workflow/static-type-checking.md)
     - [Continuous Integration & Delivery](project-guidelines/effective-and-consistent-workflow/continuous-integration-delivery.md)
     - [Dependency checking](project-guidelines/effective-and-consistent-workflow/dependency-checking.md)
     - [Project Management Tools](project-guidelines/effective-and-consistent-workflow/project-management-tools.md)
