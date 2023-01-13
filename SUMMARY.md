@@ -4,7 +4,7 @@
 - [Project Guidelines](project-guidelines/README.md)
   - [INTRODUCTION](project-guidelines/introduction.md)
   - [PROJECT SETUP](project-guidelines/project-setup/README.md)
-    - [Project starter](project-guidelines/project-setup/project-starter.md)
+    - [Frameworks](project-guidelines/project-setup/frameworks.md)
     - [Static type checking](project-guidelines/project-setup/static-type-checking.md)
     - [Code Quality Tools](project-guidelines/project-setup/code-quality-tools.md)
     - [Enforcing good practices](project-guidelines/project-setup/enforcing-good-practises.md)

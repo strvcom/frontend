@@ -24,11 +24,11 @@ It works really nicely for static websites. The deploy preview is an amazing fea
 
 Netlify also offers the following add-ons:
 
-* Analytics
-* Functions
-* Identity
-* Forms
-* Large Media
+- Analytics
+- Functions
+- Identity
+- Forms
+- Large Media
 
 And the majority of the features are free for small or personal projects.
 
@@ -42,7 +42,7 @@ There are many great alternatives. [Vercel](https://vercel.com) has great suppor
 
 ## Static vs. server-side
 
-Differences between each are described in [Project Setup](../project-setup/project-starter.md#which-one-to-choose). To have quality output, you must know the benefits of each solution.
+Differences between each are described in [Project Setup](../project-setup/frameworks.md). To have quality output, you must know the benefits of each solution.
 
 Static\(-ally generated\) websites work great with [Netlify](deployment.md#netlify) or other static hosting combined with [CDN](deployment.md#content-delivery-network-cdn).
 
@@ -78,13 +78,12 @@ A CDN is a way to deliver content from your website or mobile application to peo
 
 ### Some of the benefits of using a CDN for your website
 
-* Faster load times for web and mobile users
-* Quickly scalable during times of heavy traffic
-* Minimizes risk of traffic spikes at point of origin, ensuring site stability
-* Decreases infrastructure costs due to traffic offloading \(less load on origin\)
-* Better site performance
+- Faster load times for web and mobile users
+- Quickly scalable during times of heavy traffic
+- Minimizes risk of traffic spikes at point of origin, ensuring site stability
+- Decreases infrastructure costs due to traffic offloading \(less load on origin\)
+- Better site performance
 
 ### Additional resources
 
-* [Why you should use a Content Delivery Network](https://www.fastly.com/blog/why-you-should-use-content-delivery-network) by Fastly
-
+- [Why you should use a Content Delivery Network](https://www.fastly.com/blog/why-you-should-use-content-delivery-network) by Fastly
