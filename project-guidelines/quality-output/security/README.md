@@ -18,12 +18,12 @@ Security is an important aspect of all modern web applications. Implementing goo
 ## Server secrets
 
 - Don’t hardcode API keys and tokens, store them in the `.env` file instead
-- Don’t commit `.env` file to the repository
+- Don’t commit `.env` file to the repository. Alternatively, f you want everyone with access to the repo have access to all the secrets, you can encrypt & version `.env` file using git-crypt
 - Don’t expose secret tokens from `.env` file to the client (make sure that you only access them in the server code, e.g. inside React server components or `getServerSideProps`)
 
 ## Client secrets
 
-- Store session IDs and auth tokens in `Secure` `HttpOnly` cookies, not `localStorage` or `sessionStorage` (also SameSite=Lax)
+- Store session IDs and auth tokens in `Secure` `HttpOnly` cookies, not `localStorage` or `sessionStorage` (also [SameSite=Lax](https://web.dev/samesite-cookies-explained/#explicitly-state-cookie-usage-with-the-samesite-attribute))
 - Scope cookies to a domain (and a path, if applicable)
 
 ## User input
@@ -81,3 +81,6 @@ X-XSS-Protection: 1; mode=block
 - Disable forking for the repository
 - Restrict & control access
 - Protect production branch - prevent force push & deletion, require signed commits, require PR approval from code owners before merging
+- Use minimally scoped credentials for running Github Actions
+- Use Github Secrets for storing environment variables for Github Actions
+- Don't reference values in Github Actions that can be set by users (e.g. PR title and body)
